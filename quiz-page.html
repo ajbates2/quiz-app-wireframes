@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Coronavirus Quiz</title>
+</head>
+<body>
+    <header>
+        <h1>Question 1</h1>
+    </header>
+    <main>
+        <form class="question-form" id="js-questions">
+            <h2 class="question">Which of these is NOT a form of Coronavirus?</h2>
+            <fieldset class="container">
+                <input type="radio" name="options" id="ans1">
+                    <label for="ans1">SARS</label>
+                    <br>
+                <input type="radio" name="options" id="ans2">
+                    <label for="ans2">MERS</label>
+                    <br>
+                <input type="radio" name="options" id="ans3">
+                    <label for="ans3">T-VIRUS</label>
+                    <br>
+                <input type="radio" name="options" id="ans4">
+                    <label for="ans4">COVID-19</label>
+            </fieldset>
+        </form>
+        <footer>
+            <p class="js-score">score: 0</p>
+            <button class="js-next-question">Next Question</button>
+        </footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
